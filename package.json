@@ -1,21 +1,29 @@
 {
-  "name": "primeiro-servidor-node",
+  "name": "authentication-api",
   "version": "1.0.0",
-  "description": "Aula de Node e Express, criando o primeiro servidor com node.js",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon src/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GustavoMendes-Dev/primeiro-servidor-node.git"
-  },
-  "keywords": ["node-server"],
+  "keywords": [],
   "author": "Gustavo Mendes",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/GustavoMendes-Dev/primeiro-servidor-node/issues"
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "boom": "^7.3.0",
+    "boon": "0.0.0",
+    "fastest-validator": "^1.11.1",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.1.1",
+    "sequelize": "^6.6.5",
+    "sequelize-cli": "^6.2.0",
+    "sqlite3": "^5.0.2"
   },
-  "homepage": "https://github.com/GustavoMendes-Dev/primeiro-servidor-node#readme"
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
 }

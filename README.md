@@ -1,2 +1,2 @@
-# primeiro-servidor-node
-Aula de Node e Express, criando o primeiro servidor com node.js
+# servidor-node
+Sistema de autenticação em NodeJS utilizando Koa, Sequelize, SQLite e JWT.
